@@ -7,7 +7,7 @@ RUN dnf install -y \
     firewalld && \
     dnf clean all
 
-RUN hostnamectl set-hostname image-now-demo.example.com
+RUN echo "image-now-demo.example.com" > /etc/hostname
 
 RUN systemctl enable httpd
 

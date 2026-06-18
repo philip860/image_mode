@@ -1,0 +1,5 @@
+[[customizations.user]]
+name = "admin"
+description = "Administrator"
+password = "$6$xyJh5T6o/ZTQZ59X$iwfQ9LyhrlNxSyxmL2aejfubhpzk0UiRXicpAp/CVRqlfpsfbgiyur97x189jPIvXXLjcx5ma8yefeeIO3VDu0"
+groups = ["wheel"]
